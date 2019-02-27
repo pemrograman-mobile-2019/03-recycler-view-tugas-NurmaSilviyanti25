@@ -13,7 +13,8 @@ public class Mahasiswa {
 
         }
 
-        public String getNama() {
+        public String getNama()
+        {
             return nama;
         }
 
@@ -36,5 +37,6 @@ public class Mahasiswa {
         public void setNohp(String nohp) {
             this.nohp = nohp;
         }
+
     }
 
