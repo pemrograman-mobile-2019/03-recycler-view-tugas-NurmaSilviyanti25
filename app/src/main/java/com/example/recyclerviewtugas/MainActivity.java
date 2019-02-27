@@ -5,9 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.recyclerviewtugas.adapter.ContactsAdapter;
-import com.example.recyclerviewtugas.models.Contact;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
