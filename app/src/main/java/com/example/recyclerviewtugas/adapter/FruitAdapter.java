@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.mencobarecycleview.Models.FruitModel;
-import com.example.mencobarecycleview.R;
+import com.example.recyclerviewtugas.R;
+import com.example.recyclerviewtugas.models.FruitModel;
 
 import java.util.ArrayList;
 
@@ -18,7 +18,7 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.MyViewHolder
     private LayoutInflater inflater;
     private ArrayList<FruitModel> imageModelArrayList;
 
-    public FruitAdapter(Context ctx, ArrayList<FruitModel> imageModelArrayList){
+    public FruitAdapter(Context ctx, ArrayList<FruitModel> imageModelArrayList) {
 
         inflater = LayoutInflater.from(ctx);
         this.imageModelArrayList = imageModelArrayList;
@@ -45,7 +45,7 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.MyViewHolder
         return imageModelArrayList.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder{
+    class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView time;
         ImageView iv;
@@ -58,3 +58,4 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.MyViewHolder
         }
 
     }
+}
